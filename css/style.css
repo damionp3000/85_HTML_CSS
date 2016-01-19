@@ -1,13 +1,42 @@
 /*CIT 85 wk01 style*/
 
-html {
-    margin:0;
-    padding: 0;
-}
-
 body {
-    margin:0;
-    padding: 0;
-    background-color: #;
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    height: 100%;
+    background-color: #897373;
 }
 
+#container {
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #E4D9D9;
+    -webkit-box-shadow: 0 0 20px 20px #3E1818;
+    -moz-box-shadow: 0 0 20px 20px #3E1818;
+    box-shadow: 0 0 20px 20px #3E1818;
+}
+
+#imgHeader {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.headingContainer {
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.headingContainer > p {
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    font-size: 2.2em;
+    color: #000;
+}
